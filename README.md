@@ -1,10 +1,22 @@
 # devTinder-frontend
--create a Vite+react application
--Remove unneccessory code and create a hello world program 
+- create a Vite+react application
+- Remove unneccessory code and create a hello world program 
 - install tailwind css
 - add NavBar  component to App.jsx
--Create a NavBar.jsx seperate Component file 
--install react router dom
--Create BrowserRouter>Routes>Route=/Body>RouteChildren
--Create an Oulet in Your Body component
--create Footer 
+- Create a NavBar.jsx seperate Component file 
+- install react router dom
+- Create BrowserRouter>Routes>Route=/Body>RouteChildren
+- Create an Oulet in Your Body component
+- create Footer
+- create a login page
+- install axios
+- CORS -install cos in  backend => add middleware to with configuration origin ,  credenials 
+- whenever u r making API call so pass  axios =>{withcredentials:true}
+- install react-redux + @reduxjs/toolkit - https://redux-toolkit.js.org/tutorials/quick-start
+- configureStore => Provider => createSlice => add reducer to store
+- Add redux devtools in chrome
+- Login and see if your data is coming properly in the store
+- NavBar should update as soon as user logs in
+- Refactor our code to add constants file + create a components folder
+- You should not be access other routes without login
+- If token is not present, redirect user to login page
