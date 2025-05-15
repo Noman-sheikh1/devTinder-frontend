@@ -1,5 +1,5 @@
 import axios from "axios";
-import React from 'react'
+import React from 'react';
 import { useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
@@ -49,7 +49,12 @@ const NavBar = () => {
                   <span className="badge">New</span>
                 </Link>
               </li>
-              <li><a>Settings</a></li>
+              <li>
+                <Link to="/requests">Requests</Link>
+              </li>
+              <li>
+                <Link to="/connections">Connection</Link>
+              </li>
               <li> <a onClick={handleLogout}>Logout</a></li>
             </ul>
           </div>

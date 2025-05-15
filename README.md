@@ -10,7 +10,7 @@
 - create Footer
 - create a login page
 - install axios
-- CORS -install cos in  backend => add middleware to with configuration origin ,  credenials 
+- CORS -install cos in  backend => add middleware to with configuration origin ,credenials 
 - whenever u r making API call so pass  axios =>{withcredentials:true}
 - install react-redux + @reduxjs/toolkit - https://redux-toolkit.js.org/tutorials/quick-start
 - configureStore => Provider => createSlice => add reducer to store
